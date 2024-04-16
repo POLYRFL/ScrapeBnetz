@@ -24,7 +24,7 @@ for link in links:
     # Überprüfen, ob die URL absolut oder relativ ist
     document_url = link['href']
     if not document_url.startswith('http'):
-        # Für dieses Beispiel nehmen wir an, dass alle URLs relativ sind und ergänzen die Basis-URL
+        # Annahahme alle URLs relativ  und ergänzen die Basis-URL
         document_url = url + document_url
 
     # Den Inhalt der verlinkten Seite abrufen
